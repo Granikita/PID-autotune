@@ -1,0 +1,29 @@
+# MATLAB temporary and autosave files
+*.asv
+*.m~
+*.mlx~
+.autosave
+
+# Simulink cache and generated folders
+slprj/
+sccprj/
+simulinkCache/
+codegen/
+html/
+
+# Compiled files
+*.mex*
+*.mexw64
+*.mlappinstall
+*.mltbx
+
+# Simulink models - better to store without compression
+*.slxc
+*.slx.original
+
+# Project files temporary
+*.prj~
+
+# OS junk
+.DS_Store
+Thumbs.db
